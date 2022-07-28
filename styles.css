@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    background-color: #EFFFFD;
+}
+
+.title {
+    margin: 0;
+    padding: 15px 0 0 30px;
+    color: #EFFFFD;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.navbar {
+    background-color: #0099ff;
+    padding: 0%;
+}
+
+.curved-svg {
+    display: block;
+}
+
+.parent-div {
+}
+
+.main-div {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    position: absolute;
+    left: 20%;
+}
+
+
+
+.display-image-div {
+    height: 200px;
+    max-width: fit-content;
+    margin: 0;
+    position: absolute;
+    right: 20%;
+
+}
+
+.display-image {
+    border: 1px solid black;
+    height: 100%;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+.main-div form {
+    position: relative;
+}
+
+
+.form-control label {
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type=text] {
+    width: 9.7rem;
+    padding: 6px 20px;
+    margin: 0;
+    /* margin-left: 20px; */
+    box-sizing: border-box;
+    border: 2px solid #0099ff;
+    border-radius: 4px;
+
+    display: flex;
+
+    /* -webkit-text-stroke: 0.6px black; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-align: center;
+
+    /* Positioning of box */
+
+    /* -webkit-appearance: none;
+    position: absolute;
+    top: 50%;
+    left: auto;
+    transform: translateY(-50%); */
+  }
+
+
+input[type="color"] {
+    margin-left: 40px;
+    padding: 0%;
+
+    -webkit-appearance: none;
+	border: none;
+	width: 50px;
+	height: 30px;
+    position: absolute;
+    top: 50%;
+    left: auto;
+    transform: translateY(-50%);
+
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
+
+
+.colorpick-eyedropper-input-trigger {
+
+    -webkit-appearance: none;
+	border: none;
+	width: 32px;
+	height: 32px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* transform: translatex(-50%); */
+
+    background-image: url("https://en.wiktionary.org/wiki/color");
+}
+
+
+
+
+input[type="file"] {
+    font-family: 'Poppins', sans-serif;
+}
